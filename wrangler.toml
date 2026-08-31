@@ -1,0 +1,9 @@
+name = "audioslicer"
+compatibility_date = "2026-08-01"
+
+# Assets模式：直接把当前目录作为静态资源根目录
+[assets]
+dir = "."
+
+# 不需要 main = "xxx.js"，Assets模式会忽略main入口，自动处理html/css/img
+
